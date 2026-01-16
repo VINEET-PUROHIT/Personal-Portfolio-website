@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  background-color: rgb(17, 15, 27);
+  color: rgb(17, 15, 27);
+}
+
+nav{
+  margin: auto;
+  max-width: 80%;
+  margin-top: 10px;
+  height: 90px;
+  background-color:#0b0b0a;
+  border-radius: 35px;
+  display: flex;
+  justify-content: center;
+  position:fixed;
+  top: 20px;
+  left: 10%;
+  width: 100%;
+   
+}
+
+nav ul{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  margin: auto;
+  font-size: 25px;
+  font-weight: 500;
+  justify-content: space-evenly;
+}
+
+nav ul li{
+  width: 150px;
+  list-style: none;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #c8c9c9;
+  transition: 0.5s;
+
+}
+
+nav ul li a:hover{
+  text-decoration: underline;
+  color:#ff8033;
+}
+
+.homeCard{
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: #0b0b0a;
+  width:100%;
+  height:100vh;
+  background-color: #fffefe;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+
+.homeCard h1{
+  font-size:100px;
+}
+.homeCard P{
+  text-align: center;
+  max-width: 40%;
+  font-size: 26PX;
+  color: #79766c;
+}
+.homeCard button{
+  margin: 20px;
+  width:185px;
+  height: 70px;
+  background-color:#ff8033;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+}
+
+.homeCard button:hover{
+  background-color:#ff741e ;
+  cursor: po;
+}
